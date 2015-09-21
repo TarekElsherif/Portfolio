@@ -77,19 +77,11 @@
 	    	name:"Steve Martin"
 	    },
 	    {
-	    	quote:"My grandmother started walking five miles a day when she was sixty. She's ninety-seven now, and we don't know where the hell she is.",
-	    	name:"Ellen DeGeneres"
-	    },
-	    {
 	    	quote:"Don't sweat the petty things and don't pet the sweaty things.",
 	    	name:"George Carlin"
 	    },
 	    {
 	    	quote:"Always do whatever's next.",
-	    	name:"George Carlin"
-	    },
-	    {
-	    	quote:"Atheism is a non-prophet organization.",
 	    	name:"George Carlin"
 	    },
 	    {
