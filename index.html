@@ -9,7 +9,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<title>Tarek El-Sherif - Resume</title>
+		<title>Tarek El-Sherif - Portfolio</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/freelancer.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
@@ -35,7 +35,7 @@
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand" href="#page-top">My Portfolio</a>
+								<a class="navbar-brand" href="#page-top">Portfolio</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,7 +68,7 @@
 				<div class="container">
 						<div class="row">
 								<div class="col-lg-12">
-										<img class="img-responsive img-prof" src="img/profile-grayscale.png" alt="">
+										<img class="img-responsive img-prof" src="img/profile-grayscale.png" alt="" data-sr='enter top over 2s'>
 										<div class="intro-text">
 												<span class="name">Tarek El-Sherif</span>
 												<hr class="star-light">
@@ -206,18 +206,18 @@
 										<hr class="star-primary">
 								</div>
 						</div>
-						<div class="row">
+						<div class="row text-center">
+            <p>Thank you for visiting my website.<br>
+            Have a randomly-generated motivational quote. <i class="fa fa-glass"></i></p>
 								<div class="col-lg-8 col-lg-offset-2">
-
-								  <div class="quoteContainer text-center" id="quoteContainer">
-				            <p> </p>
-				              <p class="bg-info" id="quoteGenius"></p>			
-			            </div><!--end quoteContainer-->
-			            <br/>
 			            <div class="text-center" id="buttonContainer">
 				            <a href="#" class="btn btn-quote" id="quoteButton">Quote Me</a>
 		              </div><!--end buttonContainer-->
-
+                  <br/>
+                  <div class="quoteContainer text-center" id="quoteContainer">
+                    <p> </p>
+                      <p class="bg-info" id="quoteGenius"></p>      
+                  </div><!--end quoteContainer-->
 								</div>
 						</div>
 				</div>
@@ -526,26 +526,31 @@
 		<script>
 		$(function(){
 		// typed function
-
-				$("#typed").typed({
-						strings: ["^1500", "Greetings^500", "My name is <strong>Tarek El-Sherif</strong> ^1000", "I am a <strong>Web Developer</strong>"],
-						typeSpeed: 40,
-						backDelay: 10,
-						showCursor: true,
-						loop: false,
-						contentType: 'html', // or text
-						// defaults to false for infinite loop
-						loopCount: false,
-						callback: function(){ foo(); },
-						resetCallback: function() { newTyped(); }
-				});
-
+      $("#typed").typed({
+            strings: ["Web Developer^1500", "Web Designer^1500", "Software Engineer^1500", "Musician^1500", "Sketcher^1500"],
+            // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+            stringsElement: null,
+            // typing speed
+            typeSpeed: 30,
+            // time before typing starts
+            startDelay: 0,
+            // backspacing speed
+            backSpeed: 20,
+            // time before backspacing
+            backDelay: 500,
+            // loop
+            loop: true,
+            // false = infinite
+            loopCount: false,
+            // show cursor
+            showCursor: true,
+            // character for cursor
+            cursorChar: "|", 
+        });
 		});
-
 		// scrollReveal
 		window.sr = new scrollReveal();
 		</script>
-		<!-- typed.js end -->
 
 </body>
 
