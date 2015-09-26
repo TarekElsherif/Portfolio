@@ -581,31 +581,21 @@ footer .footer-below {
 
 /* Quote Button */
 
-.quoteContainer {
-    width:75%;
-    background: #fff;
-    padding:10px;
-    margin:30px;
-    text-align: center;
-    height:70px;
-}
-
 /*
 original dark blue: 2c3e50;
 unsaturated blue: #7493C8; rgba(116,147,200,.9);
 */
 
 .quoteContainer{
-    width:75%;
     background: #fff;
     padding:10px;
-    margin:30px auto;
+    margin:20px auto;
     text-align: center;
-    height:70px;
+    height: 150px;
 }
 
 .btn-quote {
-    margin-top: 40px;
+    margin-top: 20px;
     border: solid 2px #7493C8;
     font-size: 20px;
     color: #7493C8;
