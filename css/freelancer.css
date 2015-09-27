@@ -589,7 +589,7 @@ unsaturated blue: #7493C8; rgba(116,147,200,.9);
 .quoteContainer{
     background: #fff;
     padding:10px;
-    margin:20px auto;
+    /*margin:20px auto;*/
     text-align: center;
     height: 150px;
 }
